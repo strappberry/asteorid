@@ -831,7 +831,7 @@ fieldset[disabled] .multiselect {
 
 .multiselect {
   .multiselect__option--highlight {
-    background: #5851d8;
+    background: #FB7178;
     color: #040405;
     font-weight: normal !important;
 
@@ -859,12 +859,12 @@ fieldset[disabled] .multiselect {
   }
 
   .multiselect__tags-wrap .multiselect__tag {
-    background: #5851d8;
+    background: #FB7178;
     color: #040405;
 
     .multiselect__tag-icon {
       &:hover {
-        background: #5851d8;
+        background: #FB7178;
       }
 
       &::after {

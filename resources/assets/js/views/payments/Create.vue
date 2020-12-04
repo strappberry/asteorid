@@ -463,7 +463,7 @@ export default {
         this.formData.payment_date = moment(
           response.data.payment.payment_date,
           'YYYY-MM-DD'
-        ).toString()
+        ).toISOString()
         this.formData.amount = parseFloat(response.data.payment.amount)
         this.paymentPrefix = response.data.payment_prefix
         this.paymentNumAttribute = response.data.nextPaymentNumber
@@ -495,7 +495,7 @@ export default {
         this.isRequestOnGoing = true
         this.checkAutoGenerate()
         this.setInitialCustomFields('Payment')
-        this.formData.payment_date = moment().toString()
+        this.formData.payment_date = moment().toISOString()
         this.fetchPaymentModes({ limit: 'all' })
         await this.fetchCustomers({ limit: 'all' })
         if (this.$route.query.customer) {

@@ -22,7 +22,7 @@
         .heading-text {
             font-weight: 600;
             font-size: 24px;
-            color: #5851D8;
+            color: #FB7178;
             width: 100%;
             text-align: left;
             padding: 0px;
@@ -84,7 +84,7 @@
         }
 
         .sales-total-indicator-table {
-            border-top: 1px solid #EAF1FB;
+            border-top: 1px solid #FDE4E5;
             width: 100%;
         }
 
@@ -130,7 +130,7 @@
             font-weight: 500;
             font-size: 20px;
             line-height: 21px;
-            color: #5851D8;
+            color: #FB7178;
         }
         .text-center {
             text-align: center;

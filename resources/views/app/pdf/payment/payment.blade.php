@@ -21,7 +21,7 @@
 
         hr {
            color: rgba(0, 0, 0, 0.2);
-           border: 0.5px solid #EAF1FB;
+           border: 0.5px solid #FDE4E5;
         }
 
         /* -- Heeader -- */
@@ -240,7 +240,7 @@
             display: block;
             margin-right: 30px;
             background: #F9FBFF;
-            border: 1px solid #EAF1FB;
+            border: 1px solid #FDE4E5;
             box-sizing: border-box;
             float: right;
             padding: 12px 15px 15px 15px;
@@ -260,7 +260,7 @@
             font-size: 14px;
             line-height: 21px;
             text-align: right;
-            color: #5851D8;
+            color: #FB7178;
         }
     </style>
 </head>

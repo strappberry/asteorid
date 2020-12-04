@@ -10,7 +10,8 @@
     "reports": "Informes",
     "settings": "Configuraciones",
     "logout": "Cerrar sesión",
-    "users": "Users"
+    "users": "Users",
+    "leads": "Leads"
   },
   "general": {
     "add_company": "Add Company",
@@ -86,7 +87,10 @@
     "retry": "Procesar de nuevo",
     "choose_note": "Choose Note",
     "no_note_found": "No Note Found",
-    "insert_note": "Insert Note"
+    "insert_note": "Insert Note",
+    "based_on": "Basado en",
+    "strappberry": "Strappberry",
+    "crater_app": "Crater"
   },
   "dashboard": {
     "select_year": "Seleccionar año",

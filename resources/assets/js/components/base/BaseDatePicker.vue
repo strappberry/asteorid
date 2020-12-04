@@ -18,8 +18,7 @@
 import { mapGetters } from 'vuex'
 import SwDatePicker from '@bytefury/spacewind/src/components/SwDatePicker'
 import moment from 'moment'
-const fromMomentDate = (date, format = 'YYYY-MM-DD') =>
-  moment(new Date(date), format)
+const fromMomentDate = (date, format = 'YYYY-MM-DD') => moment(date)
 
 export default {
   components: {

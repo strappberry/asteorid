@@ -36,7 +36,7 @@ export default {
 // mixins.scss
 
 @mixin global-bg() {
-  background-color: #5851d8;
+  background-color: #FB7178;
 }
 
 @mixin global-animation() {
@@ -107,7 +107,7 @@ export default {
         width: 50px;
         height: 50px;
         border-radius: 100%;
-        border: 2px solid #5851d8;
+        border: 2px solid #FB7178;
         animation: ball-scale-ripple-multiple 1.25s 0s infinite
           cubic-bezier(0.21, 0.53, 0.56, 0.8);
       }

@@ -2,7 +2,7 @@
 <html lang="en" class="h-full">
 
 <head>
-    <title>Crater - Self Hosted Invoicing Platform</title>
+    <title>{{ config('app.name') }} - Self Hosted Invoicing Platform</title>
     <script src="/assets/js/pace/pace.js"></script>
     <link href="{{mix("/assets/css/crater.css")}}" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
     <link rel="manifest" href="/assets/img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg" color="#5851d8">
+    <link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg" color="#FB7178">
     <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">

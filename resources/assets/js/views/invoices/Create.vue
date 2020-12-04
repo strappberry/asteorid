@@ -811,12 +811,12 @@ export default {
               this.newInvoice.invoice_date = moment(
                 res1.data.invoice.invoice_date,
                 'YYYY-MM-DD'
-              ).toString()
+              ).toISOString()
 
               this.newInvoice.due_date = moment(
                 res1.data.invoice.due_date,
                 'YYYY-MM-DD'
-              ).toString()
+              ).toISOString()
 
               this.discountPerItem = res1.data.invoice.discount_per_item
               this.selectedCurrency = this.defaultCurrency
@@ -844,8 +844,8 @@ export default {
       await this.setInitialCustomFields('Invoice')
       await this.fetchTaxTypes({ limit: 'all' })
       this.selectedCurrency = this.defaultCurrency
-      this.newInvoice.invoice_date = moment().toString()
-      this.newInvoice.due_date = moment().add(7, 'days').toString()
+      this.newInvoice.invoice_date = moment().toISOString()
+      this.newInvoice.due_date = moment().add(7, 'days').toISOString()
 
       this.isLoadingInvoice = false
     },

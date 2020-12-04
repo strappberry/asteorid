@@ -99,8 +99,8 @@ export default {
       selectedRange: 'This Month',
       range: new Date(),
       formData: {
-        from_date: moment().startOf('month').toString(),
-        to_date: moment().endOf('month').toString(),
+        from_date: moment().startOf('month').toISOString(),
+        to_date: moment().endOf('month').toISOString(),
       },
       url: null,
       siteURL: null,
@@ -154,8 +154,8 @@ export default {
   },
   watch: {
     range(newRange) {
-      this.formData.from_date = moment(newRange).startOf('year').toString()
-      this.formData.to_date = moment(newRange).endOf('year').toString()
+      this.formData.from_date = moment(newRange).startOf('year').toISOString()
+      this.formData.to_date = moment(newRange).endOf('year').toISOString()
     },
   },
   mounted() {
@@ -168,16 +168,16 @@ export default {
   },
   methods: {
     getThisDate(type, time) {
-      return moment()[type](time).toString()
+      return moment()[type](time).toISOString()
     },
     getPreDate(type, time) {
-      return moment().subtract(1, time)[type](time).toString()
+      return moment().subtract(1, time)[type](time).toISOString()
     },
     onChangeDateRange() {
       switch (this.selectedRange) {
         case 'Today':
-          this.formData.from_date = moment().toString()
-          this.formData.to_date = moment().toString()
+          this.formData.from_date = moment().toISOString()
+          this.formData.to_date = moment().toISOString()
           break
 
         case 'This Week':

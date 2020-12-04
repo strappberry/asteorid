@@ -1,6 +1,6 @@
 {
-    "name": "bytefury/crater",
-    "description": "Free & Open Source Invoice App for Freelancers & Small Businesses. https://craterapp.com",
+    "name": "strappberry/asteroid",
+    "description": "Free Open Source Invoice App and Team Management for Freelancers & Small Businesses. Based on https://craterapp.com",
     "keywords": [
         "framework",
         "laravel"

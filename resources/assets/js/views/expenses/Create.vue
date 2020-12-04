@@ -460,7 +460,7 @@ export default {
 
         this.formData.expense_date = moment(
           this.formData.expense_date
-        ).toString()
+        ).toISOString()
 
         this.formData.amount = response.data.expense.amount
 

@@ -23,7 +23,7 @@
         hr {
             margin: 0 30px 0 30px;
             color: rgba(0, 0, 0, 0.2);
-            border: 0.5px solid #EAF1FB;
+            border: 0.5px solid #FDE4E5;
         }
 
         /* -- Header -- */
@@ -261,7 +261,7 @@
             page-break-before: auto;
             page-break-after: auto;
             margin-left: 500px;
-            border: 1px solid #EAF1FB;
+            border: 1px solid #FDE4E5;
             border-top: none;
         }
 

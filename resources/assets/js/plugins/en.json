@@ -10,7 +10,8 @@
     "reports": "Reports",
     "settings": "Settings",
     "logout": "Logout",
-    "users": "Users"
+    "users": "Users",
+    "leads": "Leads"
   },
   "general": {
     "add_company": "Add Company",
@@ -87,7 +88,10 @@
     "choose_note": "Choose Note",
     "no_note_found": "No Note Found",
     "insert_note": "Insert Note",
-    "copied_pdf_url_clipboard": "Copied PDF url to clipboard!"
+    "copied_pdf_url_clipboard": "Copied PDF url to clipboard!",
+    "based_on": "Based on",
+    "strappberry": "Strappberry",
+    "crater_app": "Crater"
   },
   "dashboard": {
     "select_year": "Select year",

@@ -24,7 +24,7 @@
 
         hr {
             color: rgba(0, 0, 0, 0.2);
-            border: 0.5px solid #EAF1FB;
+            border: 0.5px solid #FDE4E5;
         }
 
         /* -- Header -- */

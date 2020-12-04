@@ -818,11 +818,11 @@ export default {
               this.newEstimate.estimate_date = moment(
                 res1.data.estimate.estimate_date,
                 'YYYY-MM-DD'
-              ).toString()
+              ).toISOString()
               this.newEstimate.expiry_date = moment(
                 res1.data.estimate.expiry_date,
                 'YYYY-MM-DD'
-              ).toString()
+              ).toISOString()
               this.discountPerItem = res1.data.estimate.discount_per_item
               this.taxPerItem = res1.data.estimate.tax_per_item
               this.selectedCurrency = this.defaultCurrency
@@ -851,8 +851,8 @@ export default {
       await this.setInitialCustomFields('Estimate')
       await this.fetchTaxTypes({ limit: 'all' })
       this.selectedCurrency = this.defaultCurrency
-      this.newEstimate.estimate_date = moment().toString()
-      this.newEstimate.expiry_date = moment().add(7, 'days').toString()
+      this.newEstimate.estimate_date = moment().toISOString()
+      this.newEstimate.expiry_date = moment().add(7, 'days').toISOString()
       this.isLoadingEstimate = false
     },
 

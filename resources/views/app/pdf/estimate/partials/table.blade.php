@@ -121,7 +121,7 @@
         </tr>
         <tr>
             <td class="border-0 total-border-left total-table-attribute-label">@lang('pdf_total')</td>
-            <td class="py-8 border-0 total-border-right item-cell total-table-attribute-value" style="color: #5851D8">
+            <td class="py-8 border-0 total-border-right item-cell total-table-attribute-value" style="color: #FB7178">
                 {!! format_money_pdf($estimate->total, $estimate->user->currency)!!}
             </td>
         </tr>

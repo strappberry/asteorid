@@ -130,7 +130,7 @@
             </td>
             <td
                 class="py-8 border-0 total-border-right item-cell total-table-attribute-value"
-                style="color: #5851D8"
+                style="color: #FB7178"
             >
                 {!! format_money_pdf($invoice->total, $invoice->user->currency)!!}
             </td>
