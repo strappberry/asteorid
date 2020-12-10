@@ -93,7 +93,7 @@ test('create customer', function () {
 
     $response = User::createCustomer($request);
 
-     $this->assertDatabaseHas('users', [
+    $this->assertDatabaseHas('users', [
         'name' => $customer['name'],
         'email' => $customer['email'],
         'role' => $customer['role']

@@ -36,6 +36,9 @@ use Crater\Http\Controllers\V1\Invoice\SendInvoiceController;
 use Crater\Http\Controllers\V1\Invoice\InvoiceTemplatesController;
 use Crater\Http\Controllers\V1\Item\ItemsController;
 use Crater\Http\Controllers\V1\Item\UnitsController;
+use Crater\Http\Controllers\V1\Lead\LeadsController;
+use Crater\Http\Controllers\V1\Lead\LeadSourcesController;
+use Crater\Http\Controllers\V1\Lead\LeadsWebHookController;
 use Crater\Http\Controllers\V1\Mobile\AuthController;
 use Crater\Http\Controllers\V1\Onboarding\DatabaseConfigurationController;
 use Crater\Http\Controllers\V1\Settings\MailConfigurationController;
@@ -348,6 +351,15 @@ Route::prefix('/v1')->group(function () {
         Route::post('/users/delete', [UsersController::class, 'delete']);
 
         Route::apiResource('/users', UsersController::class);
+
+        // Leads
+        //----------------------------------
+
+        Route::apiResource('/lead-sources', LeadSourcesController::class);
+
+        Route::post('/leads/web-hook', LeadsWebHookController::class);
+        Route::post('/leads/delete', [LeadsController::class, 'delete']);
+        Route::apiResource('/leads', LeadsController::class);
 
     });
 });

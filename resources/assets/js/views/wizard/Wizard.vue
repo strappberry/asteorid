@@ -4,7 +4,7 @@
   >
     <img
       id="logo-crater"
-      src="/assets/img/crater-logo.png"
+      src="/assets/img/asteroid-logo.png"
       alt="Crater Logo"
       class="h-12"
     />

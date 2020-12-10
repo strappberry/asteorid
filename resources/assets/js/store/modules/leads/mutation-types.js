@@ -1,0 +1,6 @@
+export const SET_TOTAL_LEADS = "SET_TOTAL_LEADS"
+export const SET_LEADS = "SET_LEADS"
+export const SET_LEAD_SOURCES = "SET_LEAD_SOURCES"
+export const ADD_LEAD = "ADD_LEAD"
+export const UPDATE_LEAD = "UPDATE_LEAD"
+export const DELETE_LEAD = "DELETE_LEAD"

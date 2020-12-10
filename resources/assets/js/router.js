@@ -62,6 +62,11 @@ import ProfitLossReport from './views/reports/ProfitLossReport'
 import TaxReport from './views/reports/TaxReport.vue'
 import ReportLayout from './views/reports/layout/Index.vue'
 
+// Leads
+import LeadsIndex from './views/leads/Index'
+import LeadsCreate from './views/leads/Create'
+import LeadsView from './views/leads/View'
+
 // Settings
 import SettingsLayout from './views/settings/SettingsIndex.vue'
 import CompanyInfo from './views/settings/CompanyInfoSetting.vue'
@@ -321,6 +326,28 @@ const routes = [
             component: TaxReport,
           },
         ],
+      },
+
+      // Leads
+      {
+        path: 'leads',
+        name: 'leads.index',
+        component: LeadsIndex,
+      },
+      {
+        path: 'leads/create',
+        name: 'leads.create',
+        component: LeadsCreate,
+      },
+      {
+        path: 'leads/:id/edit',
+        name: 'leads.edit',
+        component: LeadsCreate,
+      },
+      {
+        path: 'leads/:id/view',
+        name: 'leads.view',
+        component: LeadsView,
       },
 
       // Settings

@@ -6,7 +6,7 @@
       <div class="w-full">
         <a href="/admin">
           <img
-            src="/assets/img/crater-logo.png"
+            src="/assets/img/asteroid-logo.png"
             class="block w-48 h-auto max-w-full mb-32 text-primary-400"
             alt="Crater Logo"
           />
@@ -58,7 +58,7 @@
 }
 
 .content-box::before {
-  background-image: url('/images/frame.svg');
+  background-image: url('/images/asteroid.svg');
   content: '';
   background-size: 100% 100%;
   background-repeat: no-repeat;

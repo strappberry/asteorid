@@ -117,6 +117,11 @@ export default {
             icon: 'star-icon',
             route: '/admin/items',
           },
+          {
+            title: 'navigation.leads',
+            icon: 'users-icon',
+            route: '/admin/leads',
+          },
         ],
         [
           {
